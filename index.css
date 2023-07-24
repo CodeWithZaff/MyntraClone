@@ -1,0 +1,146 @@
+html , body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+header{
+    box-shadow: rgb(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 66px;
+    
+}
+
+.container{
+    padding: 0 10vw;
+    /* margin: 13px 0px; */
+}
+
+nav{
+    padding-top: 10px;
+}
+.flex{
+    /* background-color: antiquewhite; */
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 8px 26px
+
+}
+.left img{
+    height: 32px;
+    width: 41px;
+}
+
+.left ul li{
+    list-style: none;
+    padding: 0 12px;
+}
+
+.left ul li a{
+    text-decoration: none;
+}
+.right{
+    font-weight: bold;
+    position: absolute;
+    right: 10px;
+}
+/* .right input{
+    height: 25px;
+    font-weight: bold;
+    width: 440px;
+} */
+
+.btn{
+    border: 0.4px solid gray;
+    border-radius: 2px;
+
+    height: 31px;
+    width: 50px;
+    cursor: pointer;
+
+}
+.search{
+    border: 0.1px solid gray;
+    background: #f7f8fd;
+    width: 28vw;
+    padding: 7px 17px;
+    border-radius: 2px;
+}
+.right ul li{
+    /* text-transform: uppercase; */
+    list-style: none;
+    padding: 0 12px;
+}
+
+.section1{
+    background: #f5f0f0;
+    
+}
+.homeimg{
+    width: 85vw;
+    margin: auto;
+}
+  
+.deals{
+    text-transform: uppercase;
+    font-size: large;
+    color: #502d2d;
+    
+}
+.viewbtn{
+    color: white;
+    background-color: #502d2d;
+    height: 48px;
+    width: 94px;
+    margin: 3px;
+    padding: 5px;
+    font-size: large;
+}
+footer{
+    
+    padding: 23px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.tall{
+    min-height: 40vh;
+  }
+
+  @media (max-width: 450px) { 
+    .search {
+        width: 72vw; 
+    }
+    }
+    
+    @media (max-width: 1550) { 
+    
+      nav ul li {
+        list-style: none;
+        padding: 0 4px;
+        font-size: 10px;
+    }
+      
+    
+      .containerHeader {
+        padding: 0 2vw;
+    }
+      
+    header{ 
+      height:122px;
+    }  
+    
+      nav{
+        flex-direction: column;
+        align-items: center;
+      }
+    
+    }
